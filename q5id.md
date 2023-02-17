@@ -31,9 +31,9 @@ MD013: false
 
 ---
 
-# Top Identity Management Software
+## Top Identity Management Software
 
-## Market Share
+### Market Share
 
 * USD 3.85B in 2020,  USD14.82B by 2025, CAGR : 31.2%
 * IDaaS market share(2021)
@@ -84,7 +84,7 @@ MD013: false
 
 ---
 
-# FAQ about Q5id
+## FAQ about Q5id
 
 * **Store Personal and biometric data**
     Data, such as name, address, email, and phone number are **`encrypted and saved.`** Unless required, biometrics are not stored. Biometrics are converted into a character string using a hashing algorithm that cannot be reverse-engineered.
@@ -118,7 +118,7 @@ MD013: false
 
 ---
 
-# Features of Q5id
+## Features of Q5id
 
 * prevent fraud, reduce risk, and improve customer experience
 * uses a combination of biometric and identity verification
@@ -126,79 +126,83 @@ MD013: false
 
   ```
   1. Q5id Identity Proofing
-    >uses government-issued IDs and biometric authentication
+    uses government-issued IDs and biometric authentication
 
   2. Q5id Biometric Authentication
-    >uses facial recognition and voice biometrics to authenticate users.
+    uses facial recognition and voice biometrics to authenticate users.
 
   3. Q5id Risk Scoring
-    >uses ML algorithms to analyze user behavior and assign risk scores.
+    uses ML algorithms to analyze user behavior and assign risk scores.
 
   4. Q5id Identity as a Service
-    >A cloud-based identity verification solution
+    A cloud-based identity verification solution
   ```
 
 ---
 
-# Q5id IDaaS
+## Q5id IDaaS
 
 * Key features
 
+```
 (1) Identity Verification
-  >data sources : government-issued IDs, biometric data, and public records.
+    data sources : government-issued IDs, biometric data, and public records.
 
 (2) Compliance
->GDPR and HIPAA. It also meets SOC 2 and ISO 27001 standards.
+    GDPR and HIPAA. It also meets SOC 2 and ISO 27001 standards.
 
 (3) Integration
->integrated with existing workflows and systems
->incorporate into your identity management strategy
->supports a variety of integration methods, including API and webhooks.
+    integrated with existing workflows and systems
+    incorporate into your identity management strategy
+    supports API and webhooks.
 
----
 (4) Customization
->flexible and customizable
->offers configuration options - custom workflows, branding, and messaging.
+    flexible and customizable
+    offers configuration options - custom workflows, branding, and messaging.
 
 (5) Analytics
->real-time analytics and reporting to track key metrics
->verification success rates, user engagement, and risk scores.
----
+    real-time analytics and reporting to track key metrics
+    verification success rates, user engagement, and risk scores.
+
 (6) Scalability
->scalable - handle large volumes of identity verifications.
+    scalable - handle large volumes of identity verifications.
 
 (7) User Experience
->user-friendly experience for customers and employees.
-> offers a range of verification methods, mobile and web-based options.
+    user-friendly experience for customers and employees.
+    offers a range of verification methods, mobile and web-based options.
+```
 
 ---
 
-# GDPR compliance for Q5id
+## GDPR compliance for Q5id
 
 * Key ways
 
+```
+
 (1) Lawful Basis
->relies on user consent or contractual obligation for processing personal data.
+    relies on user consent or contractual obligation for processing personal data.
 
 (2) Data Minimization
->only collects and processes the data that is necessary for the purpose of identity verification.
-
----
+    only collects and processes the data that is necessary for the purpose of identity verification.
 
 (3) Transparency
->transparent about its data processing activities
->providing users with clear and concise information - collected, used, shared with.
+    transparent about its data processing activities
+    providing users with clear and concise information - collected, used, shared with.
 
 (4) Security
->security of personal data. It uses industry-standard encryption and secure storage practices to protect user data.
-
----
+    industry-standard encryption 
+    secure storage practices to protect user data.
 
 (5) Data Subject Rights
->This includes providing users with access to their personal data, the right to have their data corrected or erased, and the right to object to the processing of their data.
+    providing users with access to their personal data 
+    the right to have their data corrected or erased 
+    the right to object to the processing of their data.
 
 (6) Data Protection Officer
->appointed a Data Protection Officer (DPO) to act as a point of contact for data subjects and supervisory authorities.
+    appointed a Data Protection Officer (DPO) 
+    act as a point of contact for data subjects and supervisory authorities.
+```
 
 ---
 
@@ -242,6 +246,7 @@ MD013: false
 
 ## Security
 
+* Encrypted Database
 * Personal Data Storage for Data Control
   * save : Q5id
   * delete : request email to Q5id
@@ -249,6 +254,24 @@ MD013: false
 
 ## User Experience and Convenience
 
-*
+* SSO over muti-Biz
 
 ## Innovation and more
+
+* SSI, ZKP
+
+---
+
+## Technology (2/16 추가논의내용)
+
+* 사용자 편의성 확보 : 간편로그인 (SSO)
+* 보안성 높은 인증 서비스 (Identification)
+* 데이터 주권 제공 : 개인정보 관리 (Data management)
+  * 데이터 신뢰성과 무결성 제공
+
+* flow
+    1. 생체인증으로 로그인(웹,앱)
+    1. 본인인증 (prove me) : 서버에서 인증
+    1. 민감정보 및 데이터 관리(저장/삭제/공유)
+        * 데이터마켓 서비스
+        * 마이데이터 분석 서비스 연계 가능
